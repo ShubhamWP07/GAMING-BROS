@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+
+    /* font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif; */
+
+
+   /* BASIC-CSS */
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   body{
+   font-family: 'Poppins', sans-serif;
+  
+   }  
+
+   /* HEADER-SECTION-STLING */
+
+   .header-section{
+    width: 100%;
+    padding: 40px 10px;
+   }
+
+   .header-logo{
+    width: 130px;
+   }
+
+   .header-ul{
+    display: none;
+   }
+
+   .header-button2{
+    padding: 12px 30px;
+    margin-left: 10px;
+   }
+
+    /* HERO-SECTION-STYLING */
+
+    .hero-section{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-heading{
+      width: 100%;
+      font-size: 40px;
+      /* padding: 70px 0px 25px 0px; */
+    }
+
+    .hero-p{
+      width: 100%;
+      font-size: 14px;
+    }
+
+    .header-right-hrading{
+      width: 100%;
+    }
+
+
+
+
+
+}

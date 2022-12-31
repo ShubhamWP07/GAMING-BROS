@@ -1,0 +1,699 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+/* BASIC-CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER-SECTION-STLING */
+
+.main-header-con{
+  background-image: url(/Assets/Photos/futuristic-bg.png),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: multiply;
+    background-position: cover;
+    height: 100vh;
+}
+
+.header-section{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.header-list-section{
+  text-align: left;
+}
+
+.header-ul{
+  display: flex;
+  list-style: none;
+  text-align: left;
+}
+
+
+
+.header-list-item{
+  font-family: 'Poppins', sans-serif;
+  color: #bdbabd;
+  margin-right: 35px;
+  font-size: 14px;
+
+}
+
+.header-list-item:hover{
+  color: #f4694c;
+  cursor: pointer;
+}
+
+.header-button{
+  background-color: rgba(255, 255, 255, 0);
+  color: #bdbabd;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+  cursor: pointer;
+}
+
+.header-button:hover{
+  color: #ffffff;
+}
+
+.header-button2{
+  padding: 12px 40px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.header-button2:hover {
+  background-color: #f4684cdc;
+}
+
+/* HERO-SECTION-STYLING */
+
+.hero-section {
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.hero-heading{
+  font-size: 50px;
+  color: #ffffff;
+  width: 550px;
+  padding: 70px 0px 25px 0px;
+}
+
+.hero-p{
+  color: #bdbabd;
+  font-size: 14px;
+  width: 450px;
+}
+
+.hero-button{
+  padding: 15px 40px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 35px;
+  margin-right: 20px;
+}
+
+.hero-button:hover{
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-button2{
+  padding: 12px 40px;
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.play-button{
+  padding: 220px 0px 80px 100px;
+  
+}
+
+.right-hero-heading-section{
+  display: flex;
+  margin-right: 90px;
+}
+
+.header-right-hrading{
+  width: 250px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.right-heading-line{
+ margin-bottom: 75px;
+ margin-right: 20px;
+}
+
+.right-heading-next-arrow{
+  width: 50px;
+  margin-top: 80px;
+}
+
+/* POPULAR-GAME-SETION-STYLING   */
+
+.popular-game-heading-section{
+  width: 1270PX;
+  margin: 0 auto;
+ 
+}
+
+.popular-game-heading{
+  width: 60%;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.popular-game-4-section{
+  width: 1270px;
+  display: flex;
+  margin: 0 auto;
+  gap: 25px;
+  padding: 50px 0px 130px 0px;
+}
+
+/* POPULAR-GAME-SETION-1----------- */
+
+.popular-game-sec-1{
+  background-image: url(/Assets/Photos/image\ 2.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.popular-game-title-button-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background: linear-gradient(rgb(61, 64, 65), rgb(61, 64, 65));
+    background-blend-mode: multiply;
+    padding: 15px;
+}
+
+.popular-game-title-1{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.popular-game-p-1{
+  font-size: 14px;
+  color: #939595;
+  padding: 5px 0px;
+}
+
+.popular-game-button-1{
+  padding: 10px 25px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
+
+/* POPULAR-GAME-SETION-2----------- */
+
+.popular-game-sec-2{
+  background-image: url(/Assets/Photos/image\ 4.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.popular-game-title-button-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background: linear-gradient(rgb(61, 64, 65), rgb(61, 64, 65));
+    background-blend-mode: multiply;
+    padding: 15px;
+}
+
+.popular-game-title-2{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.popular-game-p-1{
+  font-size: 14px;
+  color: #939595;
+  padding: 5px 0px;
+}
+
+.popular-game-button-1{
+  padding: 10px 25px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
+
+/* POPULAR-GAME-SETION-3----------- */
+
+.popular-game-sec-3{
+  background-image: url(/Assets/Photos/image\ 3.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.popular-game-title-button-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background: linear-gradient(rgb(61, 64, 65), rgb(61, 64, 65));
+    background-blend-mode: multiply;
+    padding: 15px;
+}
+
+.popular-game-title-3{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.popular-game-p-1{
+  font-size: 14px;
+  color: #939595;
+  padding: 5px 0px;
+}
+
+.popular-game-button-1{
+  padding: 10px 25px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
+
+/* POPULAR-GAME-SETION-4----------- */
+
+.popular-game-sec-4{
+  background-image: url(/Assets/Photos/Rectangle\ 56.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.popular-game-title-button-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background: linear-gradient(rgb(61, 64, 65), rgb(61, 64, 65));
+    background-blend-mode: multiply;
+    padding: 15px;
+}
+
+.popular-game-title-4{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.popular-game-p-1{
+  font-size: 14px;
+  color: #939595;
+  padding: 5px 0px;
+}
+
+.popular-game-button-1{
+  padding: 10px 25px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  
+}
+
+/* ABOUT-US-SECTION-STYLING */
+
+.about-section{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.left-about-section{
+  background-image: url(/Assets/Photos/Rectangle\ 57.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;  /* 520px*/
+   height: 400px;  /* 400px*/
+}
+
+.about-heading{
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+
+.about-p{
+  color: #9e9e9e;
+  font-size: 14px;
+  width: 500px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.about-button {
+  padding: 14px 35px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.about-button-1 {
+  padding: 12px 40px;
+  border: 2px solid #f4694c;
+  background-color: rgba(255, 255, 255, 0);
+  color: #f4694c;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.right-about-section{
+  padding-left: 90px;
+}
+
+/* RECOMMEND-GAME-SECTION-STYLING */
+
+.recommend-heading-section{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommend-heading{
+  font-size: 40px;
+  width: 40%;
+}
+
+.recommend-left-arrow{
+  width: 67px;
+  background-color: #fde1db;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.recommend-right-arrow2{
+  width: 78px;
+  background-color: #f4694c;
+  padding: 20px;
+}
+
+/* ROW-1-2-STYLING */
+
+.main-recommend-game-row-1{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.recommend-game-1{
+  display: flex;
+  padding: 20px;
+}
+
+.recommend-game-1-img{
+  width: 230px;
+  height: 280px;
+}
+
+.recommend-game-1-right-sec{
+  padding-left: 30px;
+}
+
+.recommend-game-1-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.recommend-game-1-type{
+  font-size: 16px;
+  color: #f4694c;
+  font-weight: 500;
+  padding: 18px 0px;
+}
+
+.recommend-game-1-p{
+  font-size: 14px;
+  color: #9e9e9e;
+  padding-bottom: 25px;
+}
+
+.recommend-game-1-button{
+  padding: 14px 35px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+/* MOST-POPULAR-GAME-SECTION-STYLING  */
+
+.main-most-played-game-container{
+  background-color: #000308;
+  
+}
+
+.main-palyed-game-section {
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  background-image: url(/Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+  background-position: right ;
+  background-repeat: no-repeat;
+}
+
+.most-played-game-hedaing-section{
+  width: 1270px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px;
+}
+
+.most-played-game-heading{
+  width: 35%;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+.most-played-game-right-p{
+  padding: 70px;
+  color: #8a8b8e;
+}
+
+.most-played-game-img-section{
+  display: flex;
+}
+
+.most-played-game-img-1{
+  width: 400px;
+  /* margin-bottom: 130px; */
+}
+
+.most-played-game-img-2{
+  width: 300px;
+  margin: 50px 70px 0px 70px;
+}
+
+.most-played-game-img-3{
+  width: 280px;
+} 
+
+/* GET-STARTED-SECTION-STYLING */
+
+.main-get-started-container{
+  background-color: #000308;
+  padding: 120px 0px;
+  
+   
+  
+}
+
+.get-started-section{
+    background-image: url(/Assets/Photos/Rectangle\ 606.png), 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-blend-mode: overlay;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    
+    
+}
+
+.gect-started-section-heading-button-section{
+  width: 1270px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get-started-heading{
+  width: 40%;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.get-started-p{
+  width: 30%;
+  margin: 0 auto;
+  color: #8a8b8e;
+  font-size: 14px;
+  padding: 30px 0px;
+}
+
+.get-started-button{
+  padding: 14px 35px;
+  border: none;
+  background-color: #f4694c;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* FOTTER-SECTION-STYLING */
+
+#footer-container{
+  background-color: #000308;
+}
+
+.main-footer-section{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.footer-section-2{
+  flex-basis: 20%;
+}
+
+.footer-p{
+  color: #8a8b8e;
+  font-size: 14px;
+  padding: 15px 0px;
+  line-height: 2;
+}
+
+.facebook-icon{
+  padding-right: 10px;
+}
+
+.insta-icon{
+  padding-right: 10px;
+}
+
+.footer-h3{
+  color: #ffffff;
+  font-weight: 500;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer-service{
+  color: #8a8b8e;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.disc{
+  color: #f4694c;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 14px;
+}
+
+.shubham{
+  text-decoration: none;
+}
